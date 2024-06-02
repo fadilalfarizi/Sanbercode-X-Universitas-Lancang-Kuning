@@ -33,6 +33,13 @@
           </li>
         </ul>
       </li>
-      
+      <li class="nav-item">
+        <a href="/cast" class="nav-link">
+         <i class="nav-icon fas fa-users"></i>
+         <p>
+           cast
+         </p>
+       </a>
+     </li>
     </ul>
   </nav>

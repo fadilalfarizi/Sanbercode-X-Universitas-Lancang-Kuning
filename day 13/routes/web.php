@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\castController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,6 @@ Route::get('/dashboard', [AuthController::class, 'index']);
 Route::get('/tabel', [AuthController::class, 'tables']);
 
 Route::get('/data-tabel', [AuthController::class, 'data']);
+
+Route::resource('cast', castController::class);
+
